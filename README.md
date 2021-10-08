@@ -6,13 +6,12 @@ It was created for a specifi case in a project i have worked.
 This file does these things:
 * Replace values other than json object or json array with the data type and length (Ex: employeeId:1234 will be transformed as employeeId: Int 4)
 * Replace keys with hashcode and length if the key has more than 3 digits
-* If the keys are present in importantKeys map, the original values will retained. it won't be modified.
-* 
+* If the keys are present in importantKeys map, the original values will retained. it won't be modified
 
 
 Example:
 input json - 
-{
+```{
   "squadName": "Super hero squad",
   "homeTown": "Metro City",
   "formed": 2016,
@@ -55,7 +54,7 @@ input json -
 }
 
 output json - 
-{
+```{
   "squadName": "String 16",
   "homeTown": "String 10",
   "formed": "Int 4",
@@ -95,4 +94,4 @@ output json -
       ]
     }
   ]
-}
+}```
