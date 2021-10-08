@@ -54,7 +54,7 @@ input json -
 }
 
 output json - 
-```{
+{
   "squadName": "String 16",
   "homeTown": "String 10",
   "formed": "Int 4",
@@ -94,4 +94,4 @@ output json -
       ]
     }
   ]
-}```
+}
